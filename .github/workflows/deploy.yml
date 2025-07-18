@@ -39,7 +39,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd ~/todo-app
+            cd ~/ci-cd
             docker pull bhattadparth2014/todo-backend
             docker pull bhattadparth2014/todo-frontend
             docker-compose down
