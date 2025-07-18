@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="p-6 max-w-xl mx-auto text-center">
-      <h1 className="text-2xl font-bold mb-4">📝 TODO App demo</h1>
+      <h1 className="text-2xl font-bold mb-4">📝 TODO App demo test1</h1>
       <div className="flex gap-2 mb-4">
         <input
           value={task}
